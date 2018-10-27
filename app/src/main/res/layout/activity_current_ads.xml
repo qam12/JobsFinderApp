@@ -1,0 +1,513 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.ast.jobsonthemapemployer.Posted_job"
+    android:background="@color/white"
+    >
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp">
+
+
+                <ImageView
+                    android:id="@+id/imageView26"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="17dp"
+                    app:srcCompat="@mipmap/mission_header_img" />
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:weightSum="6">
+
+                    <TextView
+                        android:id="@+id/textView142"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="5.5"
+                        android:text="Lorem Ipsum"
+                        android:textSize="18sp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/textView145"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="0.5"
+                        android:text="22 1800"
+                        android:textSize="15sp"
+                        android:textColor="@color/itsorange"
+                        android:textStyle="bold" />
+
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:weightSum="6">
+
+
+                    <!--<TextView-->
+                        <!--android:id="@+id/textView143"-->
+                        <!--android:layout_width="wrap_content"-->
+                        <!--android:layout_height="wrap_content"-->
+                        <!--android:layout_alignLeft="@+id/textView142"-->
+                        <!--android:layout_alignStart="@+id/textView142"-->
+                        <!--android:layout_below="@+id/textView142"-->
+                        <!--android:text="Driveway | Sidewalk | Salting"-->
+                        <!--android:textColor="@color/itsorange"-->
+                        <!--android:textSize="9sp" />-->
+
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/textView146"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:lines="6"
+                        android:layout_marginRight="20dp"
+                        android:layout_marginTop="14dp"
+                        android:text="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis faucibus ante sem, id tristique purus viverra vel. Curabitur ornare urna odio, in commodo sem tincidunt et. Maecenas malesuada ante et ipsum imperdiet mattis. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Donec quis pulvinar risus. Fusce tempor augue blandit tellus interdum, nec egestas nisi facilisis."
+                        android:textColor="@android:color/darker_gray" />
+
+
+
+
+
+
+                    <!--<View-->
+                        <!--android:id="@+id/view14"-->
+                        <!--android:layout_width="250dp"-->
+                        <!--android:layout_height="5dp"-->
+                        <!--android:layout_alignLeft="@+id/textView149"-->
+                        <!--android:layout_alignStart="@+id/textView149"-->
+                        <!--android:layout_below="@id/textView149"-->
+                        <!--android:layout_marginTop="15dp"-->
+                        <!--android:background="@drawable/dotted"-->
+                        <!--android:backgroundTint="@android:color/darker_gray"></View>-->
+
+                </LinearLayout>
+
+                <!--<LinearLayout-->
+                    <!--android:layout_width="match_parent"-->
+                    <!--android:layout_height="wrap_content"-->
+                    <!--android:orientation="horizontal"-->
+                    <!--android:layout_marginTop="15dp"-->
+                    <!--android:layout_marginBottom="5dp"-->
+                    <!--android:weightSum="3">-->
+
+                    <!--<TextView-->
+                        <!--android:id="@+id/textView150"-->
+                        <!--android:layout_width="wrap_content"-->
+                        <!--android:layout_height="wrap_content"-->
+                        <!--android:layout_weight="1"-->
+                        <!--android:text="Name" />-->
+
+                    <!--<TextView-->
+                        <!--android:id="@+id/textView151"-->
+                        <!--android:layout_width="wrap_content"-->
+                        <!--android:layout_height="wrap_content"-->
+                        <!--android:layout_below="@+id/view14"-->
+                        <!--android:layout_weight="1"-->
+                        <!--android:text="Ryan Mcmahan" />-->
+
+                    <!--<RatingBar-->
+                        <!--android:id="@+id/ratingBar7"-->
+                        <!--android:layout_width="wrap_content"-->
+                        <!--android:layout_height="wrap_content"-->
+                        <!--android:layout_weight="1"-->
+                        <!--style="?android:ratingBarStyleSmall"-->
+                        <!--android:rating="4.2"-->
+                        <!--android:theme="@style/Theme.Rating"-->
+                        <!--/>-->
+
+
+                <!--</LinearLayout>-->
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="5dp"
+
+                    android:orientation="horizontal"
+                    android:weightSum="3">
+
+
+
+
+                </LinearLayout>
+
+
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:weightSum="6">
+
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:src="@mipmap/calendar"
+                        android:layout_marginRight="15dp"/>
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="10dp"
+                        android:orientation="vertical">
+
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Date" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="June 13,2017"
+                            android:textColor="@color/itsorange"
+                            android:textSize="12sp"
+                            />
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:layout_marginTop="5dp"
+                    android:weightSum="6">
+
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_marginRight="15dp"
+                        android:layout_height="wrap_content"
+                        android:src="@mipmap/time" />
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="10dp"
+                        android:orientation="vertical">
+
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Start Hours" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textColor="@color/itsorange"
+
+                            android:text="4PM to 5PM"
+                            android:textSize="12sp"
+                            />
+
+                    </LinearLayout>
+
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:layout_marginTop="5dp"
+                    android:weightSum="6">
+
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_marginRight="15dp"
+                        android:layout_height="wrap_content"
+                        android:src="@mipmap/time" />
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="10dp"
+                        android:orientation="vertical">
+
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Time Left" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textColor="@color/itsorange"
+
+                            android:text="4PM to 5PM"
+                            android:textSize="12sp"
+                            />
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+
+                <!--<LinearLayout-->
+                    <!--android:layout_width="match_parent"-->
+                    <!--android:layout_height="wrap_content">-->
+
+
+                    <!--<TextView-->
+                        <!--android:id="@+id/textView1474"-->
+                        <!--android:layout_width="wrap_content"-->
+                        <!--android:layout_height="wrap_content"-->
+                        <!--android:layout_alignLeft="@+id/textView146"-->
+                        <!--android:layout_alignStart="@+id/textView146"-->
+                        <!--android:layout_below="@+id/textView146"-->
+                        <!--android:layout_marginTop="25dp"-->
+                        <!--android:text="Payment Info"-->
+                        <!--android:layout_marginBottom="10dp"-->
+                        <!--android:textStyle="bold" />-->
+
+
+                <!--</LinearLayout>-->
+
+
+                <!--<LinearLayout-->
+                    <!--android:layout_width="match_parent"-->
+                    <!--android:layout_height="wrap_content">-->
+
+                    <!--<TableLayout-->
+                        <!--android:id="@+id/tabhj"-->
+                        <!--android:layout_width="match_parent"-->
+                        <!--android:layout_height="wrap_content">-->
+
+                        <!--<TableRow-->
+                            <!--android:id="@+id/tr_header"-->
+                            <!--android:layout_width="match_parent"-->
+                            <!--android:layout_height="match_parent"-->
+                            <!--android:padding="5dp">-->
+
+                            <!--<TextView-->
+                                <!--android:id="@+id/fg"-->
+                                <!--android:layout_width="wrap_content"-->
+                                <!--android:layout_height="wrap_content"-->
+                                <!--android:text="Required Agent"-->
+                                <!--android:paddingRight="20dp"-->
+                                <!--android:textColor="@android:color/darker_gray" />-->
+
+                            <!--<TextView-->
+                                <!--android:id="@+id/df"-->
+                                <!--android:layout_width="wrap_content"-->
+                                <!--android:layout_height="wrap_content"-->
+                                <!--android:text="10"-->
+                                <!--android:textColor="@android:color/darker_gray" />-->
+
+                        <!--</TableRow>-->
+                        <!--<TableRow-->
+                            <!--android:layout_width="match_parent"-->
+                            <!--android:layout_height="match_parent"-->
+                            <!--android:padding="5dp">-->
+
+                            <!--<TextView-->
+                                <!--android:layout_width="wrap_content"-->
+                                <!--android:layout_height="wrap_content"-->
+                                <!--android:text="Hours"-->
+                                <!--android:paddingRight="20dp"-->
+                                <!--android:textColor="@android:color/darker_gray" />-->
+
+                            <!--<TextView-->
+                                <!--android:layout_width="wrap_content"-->
+                                <!--android:layout_height="wrap_content"-->
+                                <!--android:text="7.5"-->
+                                <!--android:textColor="@android:color/darker_gray" />-->
+
+                        <!--</TableRow>-->
+                        <!--<TableRow-->
+                            <!--android:layout_width="match_parent"-->
+                            <!--android:layout_height="match_parent"-->
+                            <!--android:padding="5dp">-->
+
+                            <!--<TextView-->
+                                <!--android:layout_width="wrap_content"-->
+                                <!--android:layout_height="wrap_content"-->
+                                <!--android:text="Hourly rates"-->
+                                <!--android:paddingRight="20dp"-->
+                                <!--android:textColor="@android:color/darker_gray" />-->
+
+                            <!--<TextView-->
+                                <!--android:layout_width="wrap_content"-->
+                                <!--android:layout_height="wrap_content"-->
+                                <!--android:text="15"-->
+                                <!--android:textColor="@android:color/darker_gray" />-->
+
+                        <!--</TableRow>-->
+                        <!--<TableRow-->
+                            <!--android:layout_width="match_parent"-->
+                            <!--android:layout_height="match_parent"-->
+                            <!--android:padding="5dp">-->
+
+                            <!--<TextView-->
+                                <!--android:layout_width="wrap_content"-->
+                                <!--android:layout_height="wrap_content"-->
+                                <!--android:text="Fee %"-->
+                                <!--android:paddingRight="20dp"-->
+                                <!--android:textColor="@android:color/darker_gray" />-->
+
+                            <!--<TextView-->
+                                <!--android:layout_width="wrap_content"-->
+                                <!--android:layout_height="wrap_content"-->
+                                <!--android:text="10"-->
+                                <!--android:textColor="@android:color/darker_gray" />-->
+
+                        <!--</TableRow>-->
+                        <!--<TableRow-->
+                            <!--android:layout_width="match_parent"-->
+                            <!--android:layout_height="match_parent"-->
+                            <!--android:padding="5dp">-->
+
+                            <!--<TextView-->
+                                <!--android:layout_width="wrap_content"-->
+                                <!--android:layout_height="wrap_content"-->
+                                <!--android:text="Sub-total"-->
+                                <!--android:paddingRight="20dp"-->
+                                <!--android:textColor="@android:color/darker_gray" />-->
+
+                            <!--<TextView-->
+                                <!--android:layout_width="wrap_content"-->
+                                <!--android:layout_height="wrap_content"-->
+                                <!--android:text="7.5"-->
+                                <!--android:textColor="@android:color/darker_gray" />-->
+
+                        <!--</TableRow>-->
+                        <!--<TableRow-->
+                            <!--android:layout_width="match_parent"-->
+                            <!--android:layout_height="match_parent"-->
+                            <!--android:padding="2dp">-->
+
+                            <!--<TextView-->
+                                <!--android:layout_width="wrap_content"-->
+                                <!--android:layout_height="wrap_content"-->
+                                <!--android:text="Total"-->
+                                <!--android:textStyle="bold"-->
+                                <!--android:paddingRight="20dp"-->
+                                <!--android:textColor="@android:color/darker_gray" />-->
+
+                            <!--<TextView-->
+                                <!--android:layout_width="wrap_content"-->
+                                <!--android:layout_height="wrap_content"-->
+                                <!--android:textStyle="bold"-->
+                                <!--android:text="$55.00"-->
+                                <!--android:textColor="@android:color/darker_gray" />-->
+
+                        <!--</TableRow>-->
+
+
+
+
+
+                    <!--</TableLayout>-->
+
+                <!--</LinearLayout>-->
+
+                <!--<LinearLayout-->
+                    <!--android:layout_width="match_parent"-->
+                    <!--android:layout_height="wrap_content"-->
+                    <!--android:orientation="horizontal"-->
+                    <!--android:weightSum="3">-->
+
+
+
+
+
+                <!--</LinearLayout>-->
+
+
+                <!--<LinearLayout-->
+                    <!--android:layout_width="match_parent"-->
+                    <!--android:layout_height="wrap_content"-->
+                    <!--android:orientation="horizontal"-->
+                    <!--android:gravity="center">-->
+
+
+                    <!--<Button-->
+                        <!--android:layout_width="wrap_content"-->
+                        <!--android:layout_height="40dp"-->
+                        <!--android:id="@+id/button27"-->
+                        <!--android:background="@drawable/blueborder"-->
+                        <!--android:text="End mission"-->
+                        <!--android:textSize="12sp"-->
+                        <!--android:textColor="@color/colorPrimary"-->
+                        <!--android:layout_marginRight="5dp"-->
+                        <!--/>-->
+
+                    <!--<Button-->
+                        <!--android:id="@+id/button26"-->
+                        <!--android:layout_width="wrap_content"-->
+                        <!--android:layout_height="40dp"-->
+                        <!--android:layout_marginLeft="5dp"-->
+                        <!--android:background="@drawable/sample"-->
+                        <!--android:backgroundTint="@color/colorPrimary"-->
+                        <!--android:text="Start mission"-->
+                        <!--android:textSize="12sp"-->
+                        <!--android:textColor="@color/white"-->
+                        <!--/>-->
+
+
+                <!--</LinearLayout>-->
+
+
+                <Button
+                    android:layout_gravity="center"
+                    android:id="@+id/button26"
+                    android:layout_width="wrap_content"
+                    android:layout_height="40dp"
+                    android:layout_marginLeft="5dp"
+                    android:background="@drawable/sample"
+                    android:backgroundTint="@color/colorPrimary"
+                    android:text="Remove"
+                    android:layout_marginTop="10dp"
+                    android:textSize="12sp"
+                    android:textColor="@color/white"
+                    />
+
+            </LinearLayout>
+
+        </ScrollView>
+
+    </LinearLayout>
+
+</LinearLayout>
+

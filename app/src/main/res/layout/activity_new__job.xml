@@ -1,0 +1,206 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.ast.jobsonthemapemployer.New_Job"
+    android:background="@color/white">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:id="@+id/lay_dwn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/imageView"
+            android:layout_marginTop="40dp"
+            android:orientation="vertical"
+            android:paddingLeft="30dp"
+            android:paddingRight="30dp">
+
+            <EditText
+                android:id="@+id/title"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="20dp"
+                android:background="@drawable/edt_bg_selector2"
+                android:drawablePadding="5dp"
+                android:ems="10"
+                android:hint="Title"
+                android:inputType="textPersonName"
+                android:lines="1"
+                android:maxLines="1"
+                android:textColor="@color/textLog"
+                android:textSize="12sp" />
+
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="20dp"
+                android:background="@drawable/edt_bg_selector2"
+                android:drawablePadding="5dp"
+                android:ems="10"
+                android:hint="Description"
+                android:inputType="text"
+                android:textColor="@color/textLog"
+                android:textSize="12sp" />
+
+
+            <TextView
+                android:id="@+id/skill"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="20dp"
+                android:background="@drawable/edt_bg_selector2"
+                android:drawablePadding="5dp"
+                android:drawableRight="@mipmap/down_arrow"
+                android:ems="10"
+                android:hint="Category"
+                android:textColor="@color/textLog"
+                android:textSize="12sp" />
+
+
+            <EditText
+                android:id="@+id/rate"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="20dp"
+                android:background="@drawable/edt_bg_selector2"
+                android:drawablePadding="5dp"
+                android:drawableRight="@mipmap/email_icon"
+                android:ems="10"
+                android:hint="Hourly Rate"
+                android:inputType="number"
+                android:textColor="@color/textLog"
+                android:textSize="12sp" />
+
+
+            <EditText
+                android:id="@+id/editTextsdsfd"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="20dp"
+                android:background="@drawable/edt_bg_selector2"
+                android:ems="10"
+                android:hint="Hours"
+                android:inputType="textPersonName"
+                android:textColor="@color/textLog"
+                android:textSize="12sp" />
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:weightSum="2"
+                >
+
+                <EditText
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/textLog"
+                    android:textSize="12sp"
+                    android:layout_weight="1"
+                    android:hint="Date"
+                    android:drawableRight="@mipmap/email_icon"
+                    android:id="@+id/button1"
+                    android:onClick="setDate"
+                    />
+
+                <EditText
+                    android:id="@+id/button3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/textLog"
+                    android:textSize="12sp"
+                    android:layout_weight="1"
+                    android:drawableRight="@mipmap/email_icon"
+                    android:hint="Time"/>
+
+            </LinearLayout>
+
+
+            <EditText
+                android:id="@+id/editTextsdsfd"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="20dp"
+                android:background="@drawable/edt_bg_selector2"
+                android:drawablePadding="5dp"
+                android:drawableRight="@mipmap/email_icon"
+                android:ems="10"
+                android:hint="Email Address"
+                android:inputType="textPersonName"
+                android:textColor="@color/textLog"
+                android:textSize="12sp" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/Location"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="20dp"
+                    android:background="@drawable/edt_bg_selector2"
+                    android:ems="10"
+                    android:lines="1"
+                    android:maxLines="1"
+                    android:text="Location"
+                    android:textColor="@color/textLog"
+                    android:textSize="12sp" />
+
+
+                <EditText
+                    android:id="@+id/agent"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="20dp"
+                    android:background="@drawable/edt_bg_selector2"
+                    android:drawablePadding="5dp"
+                    android:ems="10"
+                    android:hint="How many agents?"
+                    android:inputType="number"
+                    android:textColor="@color/textLog"
+                    android:textSize="12sp" />
+
+
+                <TextView
+                    android:id="@+id/specialReq"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="20dp"
+                    android:background="@drawable/edt_bg_selector2"
+                    android:drawableRight="@mipmap/next_arrow"
+                    android:ems="10"
+                    android:lines="1"
+                    android:maxLines="1"
+                    android:text="Location"
+                    android:textColor="@color/textLog"
+                    android:textSize="12sp" />
+
+
+                <Button
+                    android:id="@+id/postMis"
+                    android:layout_width="250dp"
+                    android:layout_height="35dp"
+                    android:layout_marginBottom="30dp"
+                    android:background="@drawable/sample"
+                    android:text="Login"
+                    android:textColor="@color/white"
+                    />
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+    </ScrollView>
+
+
+</LinearLayout>

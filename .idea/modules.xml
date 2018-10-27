@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/JobsonthemapEmployer.iml" filepath="$PROJECT_DIR$/JobsonthemapEmployer.iml" />
+      <module fileurl="file://D:\Android pj\Employer\qamberhaider-jobsonthemapemployer-5927346028c6\AndroidStudioProjects\JobsonthemapEmployer\JobsonthemapEmployer.iml" filepath="D:\Android pj\Employer\qamberhaider-jobsonthemapemployer-5927346028c6\AndroidStudioProjects\JobsonthemapEmployer\JobsonthemapEmployer.iml" />
+      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://D:\Android pj\Employer\qamberhaider-jobsonthemapemployer-5927346028c6\AndroidStudioProjects\JobsonthemapEmployer\app\app.iml" filepath="D:\Android pj\Employer\qamberhaider-jobsonthemapemployer-5927346028c6\AndroidStudioProjects\JobsonthemapEmployer\app\app.iml" />
+    </modules>
+  </component>
+</project>
